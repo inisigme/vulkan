@@ -12,7 +12,8 @@
 
 int main()
 {	
- 	Renderer *dp = new Renderer();
+	Renderer *rem = new Renderer();
 	Sleep(10000);
-	delete dp;
+	delete rem;
+	return 1;
 }
