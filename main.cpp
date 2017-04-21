@@ -12,13 +12,19 @@
 
 int main()
 {	
-	Renderer *dp = new Renderer();
+
+Renderer *dp = new Renderer();
+
+
+
 
 
 
 
 
 	Sleep(10000);
+
 	delete dp;
+
 	return 0;
 }
