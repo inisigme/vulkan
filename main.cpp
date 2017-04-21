@@ -13,12 +13,7 @@
 int main()
 {	
 	Renderer *rem = new Renderer();
-
-
-
-
-
 	Sleep(10000);
 	delete rem;
-	return 0;
+	return 1;
 }
